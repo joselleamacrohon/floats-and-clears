@@ -1,0 +1,152 @@
+*{
+	/*reset*/
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.menu {
+	height: 100px;
+	background-color: black; 
+	color: #FBFBFA;
+	font-family: 'Charmonman', cursive;
+	line-height: 100px;
+	padding-left: 50px;
+	font-size: 40px;
+}
+
+.logo {
+	height: 80px;
+	width: 100px;
+	
+	padding-top: 30px;
+}
+
+
+.sidebar {
+	height: 550px;
+	background-color: #62665C; /*red*/
+	width: 20%;
+	float: left;
+	border:3px solid black;
+
+}
+
+.content {
+	border:3px solid black;
+	font-family: 'Poppins', sans-serif;
+	float: left;
+	height: 550px;
+	background-color: #FBFBFA; /*yellow*/
+	width: 80%;
+	padding: 20px;
+	font-size: 12px;
+
+}
+
+.page {
+	width: 900px;
+	margin: 0 auto;
+	/*border: 1px solid red;*/
+	background-color: white;
+}
+
+
+.clear:after{
+	content: " "; /*invisible element*/
+	clear: both;
+	display: block;
+}
+
+
+.container {
+	/*background-color: white;*/
+	background: url('../images/bg.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+.footer {
+	/*height: 200px;*/
+	/*border:5px solid red;*/
+	background-color: black;
+	clear: both;
+}
+
+.column {
+	background-color: #EEE7DF;
+	height: 160px;
+	width: 31%;
+	margin: 20px 1.16%;
+	float: left;
+	border-radius: 50px;
+}
+
+.article-image {
+	float: left;
+	width: 300px;
+	height: 200px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+p{ 
+	margin-bottom: 20px 
+}
+
+.avatar {
+	
+	/*border: 2px solid red;*/
+	float: left;
+	width: 60px;
+	height: 60px;
+	margin: 25px;
+	border-radius: 40px;
+	background-color: #D6e9fe;
+}
+
+.username {
+	/*border: 2px solid red;*/
+	margin-top: 30px;
+	font-family: 'Charmonman', cursive;
+
+}
+
+.comment {
+	/*border: 2px solid red;*/
+	margin: 10px;
+	padding-right: 10px;
+	overflow: hidden; /*this is important!*/
+	font-size: 0.7em;
+	font-family: 'Poppins', sans-serif;
+}
+
+.avatar-image {
+	height: 130%;
+	width: 100%;
+	border-radius: 50px;
+}
+
+.row {
+	height: 5px;
+	width: 100%;
+	color: #EEE7DF;
+	margin: 0 auto;
+	padding-bottom: 50px;
+	padding-top: 20px;
+	padding-left: 20px;
+	font-family: 'Inconsolata', monospace;
+	font-size: 20px;
+	/*font-family: 'Charmonman', cursive;*/
+}
+
+.bg {
+	width: 100%;
+	height 100%;
+}
+
+span {
+	font-family: 'Charmonman', cursive;
+	font-size: 20px;
+}
